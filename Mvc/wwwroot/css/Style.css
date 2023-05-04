@@ -1,0 +1,38 @@
+﻿.h1 {
+    font-size: 100%;
+    font-style: italic;
+    text-align: end;
+}
+.a-style {
+    padding-left: 7%;
+}
+.message {
+    background-color: rgb(33, 37, 41);
+    min-width: 200px;
+    max-width: 800px;
+    margin: 40px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.message-text {
+    color: rgb(255, 252, 252);
+    font-size: 100%;
+    padding-left: 7%;
+}
+.message-id {
+    color: white;
+    font-size: 80%;
+    padding-left: 1%;
+    text-align: left;
+}
+.message-author {
+    color: rgb(214, 210, 210);
+    font-size: 80%;
+    padding-left: 4%;
+}
+
+.message-time {
+    color: rgb(255, 252, 252);
+    font-size: 75%;
+    text-align: right;
+}

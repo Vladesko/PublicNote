@@ -1,0 +1,26 @@
+﻿@using Notes;
+@model List<Note>
+@{
+    Layout = "_Layout";
+    ViewBag.Title = "MainAdministrator";
+}
+
+<nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand a-style" asp-controller="MainAdministrator" asp-action="PostNote">Add new message</a>
+        <a class="navbar-brand" asp-controller="Role" asp-action="ChangeRoleView" asp-protocol="https" asp-host="localhost:7001">Make user to admin</a>
+        <a class="navbar-brand nav-link" asp-controller="Role" asp-action="RemoveUserByMainAdminView" asp-protocol="https" asp-host="localhost:7001">Remove user</a>
+        <a class="navbar-brand" asp-controller="MainAdministrator" asp-action="Logout">Logout</a>
+        <span class="navbar-brand h1">Public note</span>
+    </div>
+</nav>
+
+@foreach (var item in Model)
+{
+    <div class="message">
+        <div class="message-author">@item.Author</div>
+        <div class="message-id"><a class="btn" asp-controller="MainAdministrator" asp-action="ChangeNote" asp-route-id="@item.Id">@item.Id</a></div>
+        <div class="message-text">@item.Text</div>
+        <div class="message-time">@item.Time</div>
+    </div>
+}

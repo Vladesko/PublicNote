@@ -1,0 +1,12 @@
+D:\Обучение\Программирование\С#\Skillbox\ДЗ\PublicNote\Notes\bin\Debug\net5.0\Notes.deps.json
+D:\Обучение\Программирование\С#\Skillbox\ДЗ\PublicNote\Notes\bin\Debug\net5.0\Notes.dll
+D:\Обучение\Программирование\С#\Skillbox\ДЗ\PublicNote\Notes\bin\Debug\net5.0\ref\Notes.dll
+D:\Обучение\Программирование\С#\Skillbox\ДЗ\PublicNote\Notes\bin\Debug\net5.0\Notes.pdb
+D:\Обучение\Программирование\С#\Skillbox\ДЗ\PublicNote\Notes\obj\Debug\net5.0\Notes.GeneratedMSBuildEditorConfig.editorconfig
+D:\Обучение\Программирование\С#\Skillbox\ДЗ\PublicNote\Notes\obj\Debug\net5.0\Notes.AssemblyInfoInputs.cache
+D:\Обучение\Программирование\С#\Skillbox\ДЗ\PublicNote\Notes\obj\Debug\net5.0\Notes.AssemblyInfo.cs
+D:\Обучение\Программирование\С#\Skillbox\ДЗ\PublicNote\Notes\obj\Debug\net5.0\Notes.csproj.CoreCompileInputs.cache
+D:\Обучение\Программирование\С#\Skillbox\ДЗ\PublicNote\Notes\obj\Debug\net5.0\Notes.dll
+D:\Обучение\Программирование\С#\Skillbox\ДЗ\PublicNote\Notes\obj\Debug\net5.0\ref\Notes.dll
+D:\Обучение\Программирование\С#\Skillbox\ДЗ\PublicNote\Notes\obj\Debug\net5.0\Notes.pdb
+D:\Обучение\Программирование\С#\Skillbox\ДЗ\PublicNote\Notes\obj\Debug\net5.0\Notes.csprojAssemblyReference.cache

@@ -1,0 +1,15 @@
+﻿@model int
+@{
+    
+    Layout = "_Layout";
+    ViewBag.Title = "Chanage Note";
+}
+
+<nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand a-style" asp-controller="Administrator" asp-action="ChangeText" asp-route-id="@Model">Change text</a>
+        <a class="navbar-brand a-style" asp-controller="Administrator" asp-action="RemoveNote" asp-route-id="@Model">Remove note</a>
+        <a class="navbar-brand a-style" asp-controller="Administrator" asp-action="Index">Return to main page</a>
+        <span class="navbar-brand h1">Public note</span>
+    </div>
+</nav>

@@ -1,0 +1,22 @@
+﻿@using Notes;
+@model List<Note>
+@{
+    Layout = "_Layout";
+    ViewBag.Title = "PublicNote";
+}
+
+<nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand a-style" asp-controller="User" asp-action="PostNote">Add new message</a>
+        <a class="navbar-brand a-style" asp-controller="User" asp-action="Logout">Logout</a>
+    </div>
+</nav>
+
+@foreach (var item in Model)
+{
+    <div class="message">
+        <div class="message-author">@item.Author</div>
+        <div class="message-text">@item.Text</div>
+        <div class="message-time">@item.Time</div>
+    </div>
+}

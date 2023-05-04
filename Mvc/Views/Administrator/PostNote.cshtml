@@ -1,0 +1,37 @@
+﻿@{
+    Layout = "_Layout";
+    ViewBag.Title = "Public Note";
+    @using Notes
+    @model Note
+}
+
+<nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand a-style" asp-controller="Administrator" asp-action="Index">Return to main page</a>
+    </div>
+</nav>
+
+<form asp-controller="Administrator" asp-action="AddNote" asp-antiforgery="true" method="post">
+    <section class="vh-100">
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                    <div class="card bg-dark text-white" style="border-radius: 1rem;">
+                        <div class="card-body p-5 text-center">
+
+                            <div class="mb-md-5 mt-md-4 pb-5">
+                                <h2 class="fw-bold mb-2 text-uppercase">Write your message</h2>
+
+                                <div class="form-outline form-white mb-4">
+                                    <input asp-for="Text" class="form-control form-control-lg" />
+                                </div>
+
+                                <button class="btn btn-outline-light btn-lg px-5" type="submit">Send</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</form> 
